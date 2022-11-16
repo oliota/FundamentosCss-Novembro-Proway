@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicios - atalhos</title>
+  </head>
+
+  <body>
+
+    <h1>Exercicios atalhos</h1>
+
+    <a href="aula_02.html">Voltar</a>
+    <hr />
+
+
+    <ol>
+      <li>
+        <b><span>paragrafo sem conteúdo</span><br /></b>p
+      </li>
+      <li>
+        <b><span>paragrafo com conteúdo</span><br /></b>p{conteudo aqui}
+      </li>
+      <li>
+        <b> <span>paragrafo com um itálico interno sem conteúdo</span><br /></b
+        >p>i
+      </li>
+      <li>
+        <b> <span>paragrafo com um itálico interno com conteúdo</span><br /> </b
+        >p>i{conteudo aqui}
+      </li>
+      <li>
+        <b>
+          <span
+            >paragrafo sem conteúdo e ao mesmo tempo outro paragrafo sem
+            conteúdo</span
+          ><br /  ></b>p+p
+      </li>
+      <li>
+        <b>
+          <span
+            >paragrafo com conteúdo e ao mesmo tempo outro paragrafo com
+            conteúdo (usar o tab para escrever o conteúdo em cada 1)</span
+          ><br /> </b
+        >p+p{conteudo aqui}
+      </li>
+      <li>
+        <span
+          >criar um lista não ordenada com 5 itens internos sem conteúdo (usar o
+          tab para escrever o conteúdo em cada 1)</span
+        ><br />ul>li*5
+      </li>
+      <li>
+        <b>
+          <span
+            >criar um lista não ordenada com 5 itens internos com conteúdo </span
+          ><br /> </b
+        >ul>li*5{conteudo aqui}
+      </li>
+      <li>
+        <b>
+          <span>criar um paragrafo com atributo title sem valor</span><br /> </b
+        >p[title]
+      </li>
+      <li>
+        <b>
+          <span>criar um paragrafo com atributo title com valor</span><br /> </b
+        >p[title=teste]
+      </li>
+      <li>
+        <b>
+          <span
+            >criar um paragrafo com atributo title sem valor e atributo name sem
+            valor</span
+          ><br /> </b
+        >p[title name] ou p[title][name]
+      </li>
+      <li>
+        <b>
+          <span
+            >criar uma imagem com atributo width com valor e height com
+            valor</span
+          ><br /> </b
+        >img[width=100px height=50px] ou img[width=100px][height=50px]
+      </li>
+      <li>
+        <b>
+          <span
+            >Criar uma tabela com a seguinte estrutura
+            <ul>
+              <li>table com atributo border inicializado com 1</li>
+              <ul>
+                <li>thead = cabeçalho</li>
+                <ul>
+                  <li>3 th = títulos de cabeçalho</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>tbody = cabeçalho</li>
+                <ul>
+                  <li>4 tr = linhas de conteúdo</li>
+                  <ul>
+                    <li>3 td= células de conteúdo</li>
+                  </ul>
+                </ul>
+              </ul>
+            </ul> </span
+          ><br />
+        </b>
+        <ol>
+          <li>table[border=1]>thead+tbody</li>
+          <li>no thead executar - th*3</li>
+          <li>no tbody executar - tr*4>td*3</li>
+        </ol>
+      </li>
+    </ol>
+    
+  </body>
+</html>

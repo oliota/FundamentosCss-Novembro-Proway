@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="compartilhado.css">
+    <style>
+        p{
+            color: red;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            border: 5px dashed rgb(79, 194, 232);
+        }
+
+        #meu_id {
+            border: 1px solid black;
+        }
+
+        #borda_grossa {
+            border: 5px dashed rgb(79, 194, 232);
+        }
+
+        .remover_estilo {
+            text-decoration: none;
+        }
+
+        p:hover {
+            font-weight: bold;
+        }
+
+        img:hover {
+            width: 400px;
+            height: 300px;
+        }
+
+        .nomes_proprios:hover {
+            text-transform: capitalize;
+        }
+
+        #enviar {
+            background-color: blue;
+            width: 70px;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 8px;
+            color: white;
+        }
+
+        #enviar:hover {
+            background-color: aqua;
+            color: black;
+            width: 300px;
+        }
+
+        #enviar::after {
+            content: "Enviar";
+        }
+
+        #enviar:hover::after {
+            content: "Geralmente ID é unico nao use o id enviar em outro seletor, pfv";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Introdução css</h1>
+
+    <a href="aula_01.html">Voltar</a>
+    <hr />
+
+    <a href="outra_pagina.html"  class="remover_estilo">Vai para outra pagina por cima</a>
+
+    <a href="pagina3.html"  class="remover_estilo">Vai para a pagina 3
+
+    <a href="https://oliota.com" class="remover_estilo" id="meu_id">Link do Professor</a>
+
+    <div id="enviar"></div>
+
+    <p>Sou um paragrafo</p>
+
+    <h1>Sou um header grande</h1>
+
+
+    <img src="https://yt3.ggpht.com/ytc/AAUvwnh8uSXNsEBqViI4hmRIRGfdVngmV4Tc1r-sM4xqKQ=s176-c-k-c0x00ffffff-no-rj">
+
+    <ul>
+        <li><i id="borda_grossa" class="remover_estilo">Italico</i></li>
+        <li><b class="remover_estilo">Negrito</b></li>
+        <li><u class="remover_estilo">Linha</u></li>
+        <li><s class="remover_estilo">Riscado</s></li>
+    </ul>
+
+    <p>Outro paragrafo</p>
+
+    <P>teste</P>
+    <P>teste</P>
+    <P>teste</P>
+    <P>teste</P>
+    <P>teste</P>
+
+
+    <p><u class="remover_estilo">sem underline</u></p>
+
+    <p><s id="unico">sou unico</s></p>
+
+    <h2 style="background-color: blueviolet;color: white;">Titulo até que grande(Nubank)</h2>
+
+    <u style="text-decoration: none;">Underline</u>
+    <br>
+
+    <s style="text-decoration: none;">Riscado</s>
+
+    <p class="nomes_proprios">fulano da silva e silva</p>
+
+    <p class="nomes_proprios">FULANO DA SILVA E SILVA</p>
+
+</html>
