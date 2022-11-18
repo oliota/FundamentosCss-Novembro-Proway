@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/aula_05/modelos/estilo_global_modelos.css">
+  </head>
+  <body class="container ps-0 pe-0 pt-5">
+    <header class="row">
+      <section class="col">
+        <div class="card">
+          <div class="card-header">
+            <h1><img src="" alt="" /><span>Contato</span></h1>
+          </div>
+          <div class="card-body">
+            <nav class="row">
+              <section class="col">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="index.html" class="btn btn-outline-success btn-sm">
+                      Inicio</a
+                    >
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a
+                      href="curriculo.html"
+                      class="btn btn-outline-success btn-sm"
+                    >
+                      Curriculo</a
+                    >
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a
+                      href="contato.html"
+                      class="btn btn-outline-success btn-sm active"
+                    >
+                      Contato</a
+                    >
+                  </li>
+                </ul>
+              </section>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="row pt-4">
+      <section class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col">
+                <section class="col">
+                  <form
+                    action="mailto:rubem@oliota.com?Subject=Contato via site pessoal"
+                    enctype="text/plain"
+                    method="post"
+                    class="card"
+                  >
+                    <div class="card-header">
+                      Não perca essa chance , me mande uma mensagem. Quem sabe
+                      eu até responda...
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="basic-addon1"
+                            >Nome</span
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            required
+                            name="visitante"
+                            placeholder="Pode informar seu nome completo se quiser"
+                          />
+                        </div>
+
+                        <div class="row">
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"
+                              >Textão</span
+                            >
+                            <textarea
+                              type="text"
+                              rows="5"
+                              class="form-control"
+                              required
+                              name="mansagem"
+                              placeholder="Abra seu coração, estou interessado em ler... "
+                            ></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer text-center">
+                      <button
+                        type="submit"
+                        class="btn btn-outline-success btn-sm ms-3"
+                      >
+                        Enviar</button
+                      ><button
+                        type="reset"
+                        class="btn btn-outline-secondary btn-sm ms-3"
+                      >
+                        Limpar campos
+                      </button>
+                      <section class="row">
+                        <div class="col">
+                          Outras formas de contato
+                          <a
+                            href="https://mail.google.com/mail/u/0/?fs=1&to=rubemoliota@gmail.com&su=Contato+-+via+site+pessoal&body=Ol%C3%A1+Rubem+Tudo+bem?&tf=cm"
+                            target="_blank"
+                            title="Abrir o gmail com um template de mensagem"
+                          >
+                            <img
+                              src="/aula_05/modelos/gmail.png"
+                              class="rounded-circle"
+                            />
+                          </a>
+                          <a
+                            href="https://api.whatsapp.com/send?phone=+5547988887777&text=Ol%C3%A1+Rubem+tudo+bem?"
+                            target="_blank"
+                            title="Abrir o whatsapp com um template de mensagem"
+                          >
+                            <img
+                              src="/aula_05/modelos/whatsapp.png"
+                              class="rounded-circle"
+                            />
+                          </a>
+                        </div>
+                      </section>
+                    </div>
+                  </form>
+                </section>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div>
+          <footer class="card-footer"></footer>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conhecendo o bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="container">
+    <h1>Conhecendo o bootstrap</h1>
+
+    <a href="aula_04.html">Voltar</a>
+    <hr />
+
+    <section class="row mt-4">
+        <div class="col">
+      <div class="card">
+          <div class="card-header">Grid</div>
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  Peso restante, mas todos são restante, então tem o mesmo peso
+                </div>
+
+                <div class="col">
+                  Peso restante, mas todos são restante, então tem o mesmo peso
+                </div>
+
+                <div class="col">
+                  Peso restante, mas todos são restante, então tem o mesmo peso
+                </div>
+              </div>
+            </div>
+
+            Para especificar o tamanho utilize col-1, col-2, col-3, col-4, col-5
+            , col6, col-7, col-8, col-9, col-10, col-11, col-12
+
+            <div class="container">
+              <div class="row">
+                <div class="col-2">Peso 2</div>
+
+                <div class="col-3">Peso 3</div>
+
+                <div class="col">Peso restante</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Alert</div>
+          <div class="card-body">
+            <div class="alert alert-primary" role="alert">A primary alert</div>
+
+            <div class="alert alert-secondary" role="alert">
+              A secondary alert
+            </div>
+
+            <div class="alert alert-success" role="alert">A success alert</div>
+
+            <div class="alert alert-danger" role="alert">A danger alert</div>
+
+            <div class="alert alert-warning" role="alert">A warning alert</div>
+
+            <div class="alert alert-info" role="alert">A info alert</div>
+
+            <div class="alert alert-light" role="alert">A light alert</div>
+
+            <div class="alert alert-dark" role="alert">A dark alert</div>
+
+            Com ação de fechar
+
+            <div
+              class="alert alert-warning alert-dismissible fade show"
+              role="alert"
+            >
+              <strong>Acredite!</strong> Se clicar no outro X algo acontece.
+
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Badges</div>
+          <div class="card-body">
+            <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+
+            <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+
+            <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+
+            <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+
+            <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+
+            <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+
+            Exemplos com buttons
+
+            <button type="button" class="btn btn-primary">
+              Notifications <span class="badge text-bg-secondary">4</span>
+            </button>
+
+            Badge posicionada
+
+            <button type="button" class="btn btn-primary position-relative">
+              Inbox
+
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                99+
+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+
+            Badges com cores
+
+            <span class="badge text-bg-primary">Primary</span>
+
+            <span class="badge text-bg-secondary">Secondary</span>
+
+            <span class="badge text-bg-success">Success</span>
+
+            <span class="badge text-bg-danger">Danger</span>
+
+            <span class="badge text-bg-warning">Warning</span>
+
+            <span class="badge text-bg-info">Info</span>
+
+            <span class="badge text-bg-light">Light</span>
+
+            <span class="badge text-bg-dark">Dark</span>
+
+            Badges arredondadas
+
+            <span class="badge rounded-pill text-bg-primary">Primary</span>
+
+            <span class="badge rounded-pill text-bg-secondary">Secondary</span>
+
+            <span class="badge rounded-pill text-bg-success">Success</span>
+
+            <span class="badge rounded-pill text-bg-danger">Danger</span>
+
+            <span class="badge rounded-pill text-bg-warning">Warning</span>
+
+            <span class="badge rounded-pill text-bg-info">Info</span>
+
+            <span class="badge rounded-pill text-bg-light">Light</span>
+
+            <span class="badge rounded-pill text-bg-dark">Dark</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Buttons</div>
+          <div class="card-body">
+            <button type="button" class="btn btn-primary">Primary</button>
+
+            <button type="button" class="btn btn-secondary">Secondary</button>
+
+            <button type="button" class="btn btn-success">Success</button>
+
+            <button type="button" class="btn btn-danger">Danger</button>
+
+            <button type="button" class="btn btn-warning">Warning</button>
+
+            <button type="button" class="btn btn-info">Info</button>
+
+            <button type="button" class="btn btn-light">Light</button>
+
+            <button type="button" class="btn btn-dark">Dark</button>
+
+            <button type="button" class="btn btn-outline-primary">
+              Primary
+            </button>
+
+            <button type="button" class="btn btn-outline-secondary">
+              Secondary
+            </button>
+
+            <button type="button" class="btn btn-outline-success">
+              Success
+            </button>
+
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+
+            <button type="button" class="btn btn-outline-warning">
+              Warning
+            </button>
+
+            <button type="button" class="btn btn-outline-info">Info</button>
+
+            <button type="button" class="btn btn-outline-light">Light</button>
+
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Cards</div>
+          <div class="card-body">
+            Cards possui a seguinte estrutura card card-header card-body
+            card-footer
+
+            <div class="card">
+              <div class="card-header">Titulo</div>
+
+              <div class="card-body">Conteúdo</div>
+
+              <div class="card-footer">Rodapé</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Tipografia</div>
+          <div class="card-body">
+            Headers
+            <p class="h1">h1. Bootstrap heading</p>
+
+            <p class="h2">h2. Bootstrap heading</p>
+
+            <p class="h3">h3. Bootstrap heading</p>
+
+            <p class="h4">h4. Bootstrap heading</p>
+
+            <p class="h5">h5. Bootstrap heading</p>
+
+            <p class="h6">h6. Bootstrap heading</p>
+
+            Displays
+
+            <h1 class="display-1">Display 1</h1>
+
+            <h1 class="display-2">Display 2</h1>
+
+            <h1 class="display-3">Display 3</h1>
+
+            <h1 class="display-4">Display 4</h1>
+
+            <h1 class="display-5">Display 5</h1>
+
+            <h1 class="display-6">Display 6</h1>
+
+            Abbreviations
+
+            <p>
+              <abbr title="Mensagem longa que esta oculta">É curioso?</abbr>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Listas inline</div>
+          <div class="card-body">
+            <ul class="list-inline">
+              <li class="list-inline-item">Item1.</li>
+
+              <li class="list-inline-item">Item2.</li>
+
+              <li class="list-inline-item">Item3.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Imagens</div>
+          <div class="card-body">
+            <img
+              src="https://yt3.ggpht.com/ytc/AAUvwnh8uSXNsEBqViI4hmRIRGfdVngmV4Tc1r-sM4xqKQ=s176-c-k-c0x00ffffff-no-rj"
+              class="img-fluid"
+              alt="..."
+            />
+
+            Imagem miniatura
+
+            <img
+              src="https://yt3.ggpht.com/ytc/AAUvwnh8uSXNsEBqViI4hmRIRGfdVngmV4Tc1r-sM4xqKQ=s176-c-k-c0x00ffffff-no-rj"
+              class="img-thumbnail"
+              alt="..."
+            />
+
+            Imagens posicionadas em um elemento container
+
+            <img
+              src="https://yt3.ggpht.com/ytc/AAUvwnh8uSXNsEBqViI4hmRIRGfdVngmV4Tc1r-sM4xqKQ=s176-c-k-c0x00ffffff-no-rj"
+              class="rounded float-start"
+              alt="..."
+            />
+
+            <img
+              src="https://yt3.ggpht.com/ytc/AAUvwnh8uSXNsEBqViI4hmRIRGfdVngmV4Tc1r-sM4xqKQ=s176-c-k-c0x00ffffff-no-rj"
+              class="rounded float-end"
+              alt="..."
+            />
+
+            <img
+              src="https://yt3.ggpht.com/ytc/AAUvwnh8uSXNsEBqViI4hmRIRGfdVngmV4Tc1r-sM4xqKQ=s176-c-k-c0x00ffffff-no-rj"
+              class="rounded mx-auto d-block"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Centralizar elementos internos</div>
+          <div class="card-body">
+            <div class="text-center">
+              <img
+                src="https://yt3.ggpht.com/ytc/AAUvwnh8uSXNsEBqViI4hmRIRGfdVngmV4Tc1r-sM4xqKQ=s176-c-k-c0x00ffffff-no-rj"
+                class="rounded"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Tabelas</div>
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <th scope="col">Titulo1</th>
+
+                <th scope="col">Titulo2</th>
+
+                <th scope="col">Titulo3</th>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Coluna1</td>
+
+                  <td>Coluna2</td>
+
+                  <td>Coluna3</td>
+                </tr>
+
+                <tr>
+                  <td>Coluna1</td>
+
+                  <td>Coluna2</td>
+
+                  <td>Coluna3</td>
+                </tr>
+              </tbody>
+            </table>
+
+            Variações para tabelas
+
+            <table class="table table-primary">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            <table class="table table-secondary">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            <table class="table table-success">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            <table class="table table-danger">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            <table class="table table-warning">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            <table class="table table-info">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            <table class="table table-light">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            <table class="table table-dark">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            Tabela zebrada
+
+            <table class="table table table-striped">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            Animação HOVER
+
+            <table class="table table table-hover">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            Tabelas com bordas
+
+            <table class="table table-bordered">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+
+            Tabelas que economizam espaço em tela
+
+            <table class="table table table-sm">
+                <thead>
+                    <th scope="col">Titulo1</th>
+    
+                    <th scope="col">Titulo2</th>
+    
+                    <th scope="col">Titulo3</th>
+                  </thead>
+    
+                  <tbody>
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+    
+                    <tr>
+                      <td>Coluna1</td>
+    
+                      <td>Coluna2</td>
+    
+                      <td>Coluna3</td>
+                    </tr>
+                  </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

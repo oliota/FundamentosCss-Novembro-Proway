@@ -9,7 +9,7 @@
 
 
 ## Aula Ministradas
- ![Gif Entra21](/html_css_js.gif)
+ ![Fundamentos em CSS](/html_css_js.gif)
  
 
 | AULA | ASSUNTO |
